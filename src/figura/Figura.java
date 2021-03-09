@@ -10,11 +10,13 @@ public class Figura {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int base,altura,n=0;
-           System.out.println("\t\tCuadrado");
-                System.out.println("Ingrese el lado del cuadrado");
-                int a=sc.nextInt();
-                 int res =a*a;
-          System.out.println("El area es : "+res);
+             System.out.println("\t\tRectangulo");
+                System.out.println("Ingrese la base");
+                base=sc.nextInt();
+                System.out.println("Ingrese la altura");
+                altura=sc.nextInt();
+                  int res=base*altura;
+          System.out.println("El Area es : "+res);
     }
     
 }
